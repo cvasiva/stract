@@ -221,8 +221,103 @@
   width: 41%;
   padding-top: 0%;
 }
+@media (max-width: 1030px) {
+  .ofwidth {
+    width: 50%;
+    padding-top: 0%;
+  }
+  .cardpart2 {
+    background: #fff;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    // height: 60vh;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 2rem 0rem;
+    margin-bottom: 0rem;
+  }
+}
 
+@media (max-width: 780px) {
+  .brandstract{
+    width: 50%;
+  }
+  .resumeflx1 {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .ofwidth {
+    width: 80%;
+    padding-top: 30rem;
+  }
+  .resumeflx {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .createflx {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap: 1rem;
+  }
+  .dflex {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    justify-content: center;
+    text-align: center;
+  }
+  .dblock {
+    display: none;
+  }
+
+  .menublock {
+    display: block;
+  }
+  .navpostion {
+    background-color: #e0f2fe;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    left: 0;
+    right: 0;
+    position: absolute;
+    padding: 1rem 0rem;
+  }
+  .cardpart2 {
+    background: #fff;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 1rem 0rem;
+    margin-bottom: 2rem;
+  }
+}
 @media (max-width: 40em) {
+  .brandstract{
+    width: 70%;
+  }
+  .resumeflx1 {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
   .ofwidth {
     width: 80%;
     padding-top: 30rem;

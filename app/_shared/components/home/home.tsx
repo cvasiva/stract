@@ -33,7 +33,7 @@ const Home: React.FC = () => {
             <img
               src="/brandstract.png"
               alt="logo"
-              style={{ width: "70%" }}
+              className={styles.brandstract}
             />
           </div>
           <div onClick={() => setMenuOpen(!menuOpen)}>

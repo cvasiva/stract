@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap");
+.menu {
+  display: flex;
+  padding: 1rem 1.5rem;
+}
+
+.dflex {
+  display: flex;
+  gap: 3rem;
+  padding: 1rem;
+}
+
+.linkstle {
+  text-decoration: none;
+  font-size: 15px;
+  color: #201f22;
+  font-weight: 600;
+  font-family: inter;
+}
+
+.card {
+  background: #f9fdfa;
+  height: 86vh;
+}
+
+.createflx {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.Createfont {
+  color: #000;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.hassleflx {
+  display: flex;
+  color: #65696d;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: sans-serif;
+  padding: 1rem 0rem;
+}
+
+.inspired {
+  color: #384346;
+  font-size: 17px;
+  font-family: sans-serif;
+  font-weight: 500;
+  padding: 1rem 0rem;
+}
+
+.freefont {
+  color: #1fc76a;
+  font-size: 17px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+.cardpart2 {
+  background: #fff;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  // height: 60vh;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 2rem 0rem;
+}
+
+.cardlink {
+  background: #fff;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #131f2f;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: sans-serif;
+  border-radius: 5px;
+  width: 100%;
+  padding: 0.8rem;
+  margin: 1rem 0rem;
+}
+
+.Signfont {
+  color: #131f2f;
+  font-size: 26px;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.usefont {
+  color: #3b4959;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.emailfont {
+  color: #131f2f;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+
+.inpustyle {
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  width: 100%;
+  height: 45px;
+}
+
+.company {
+  color: #3b4959;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+
+.Forgot {
+  text-align: end;
+  color: #3b4959;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: sans-serif;
+  text-decoration: underline;
+  padding: 0.5rem 0rem;
+}
+
+.Signinbtn{
+  background: #1FC76A;
+  width: 100%;
+  color: #fff;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-align: center;
+  height: 45px;
+  border: none;
+  border-radius: 5px;
+  margin: 0.5rem 0rem;
+}
+
+.yourfont{
+  color: #1FC76A;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 0.5rem 0rem;
+}
+
+.yourfont1{
+  color: #000;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.estyleflx{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}

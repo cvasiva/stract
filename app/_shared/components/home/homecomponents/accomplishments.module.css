@@ -1,0 +1,345 @@
+.aiditsSignificantAccomplish {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 3rem;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.accomplishmentsTitle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-53xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.years {
+  align-self: stretch;
+  position: relative;
+  line-height: 3.25rem;
+  background: linear-gradient(97.28deg, #ff8e37, #f05306),
+    linear-gradient(90deg, #2c18e5, #5442f4 46.88%, #5442f5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.inIndustry {
+  flex: 1;
+  position: relative;
+  line-height: 150.5%;
+  display: inline-block;
+  min-width: 6.163rem;
+}
+.industryLabel {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  /* padding: 0 var(--padding-31xl) 0 var(--padding-32xl); */
+  font-size: var(--font-size-lg-8);
+  font-family: var(--font-raleway);
+}
+.yearsInIndustry {
+  width: 12.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-6xs-8);
+}
+.statsIcons {
+  width: 0.063rem;
+  flex: 1;
+  position: relative;
+  max-height: 100%;
+}
+.statsIconsWrapper {
+  height: 4.75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) 0 0;
+  box-sizing: border-box;
+}
+.empty {
+  /* flex: 1; */
+  justify-content: center;
+  position: relative;
+  line-height: 3.25rem;
+  background: linear-gradient(97.28deg, #ff8e37, #f05306),
+    linear-gradient(90deg, #2c18e5, #5442f4 46.88%, #5442f5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.colEndBorder{
+  border: 0 5px solid #504f4f 0 0;
+
+}
+.emptyWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-mid) 0 var(--padding-lg);
+}
+.projectsCompleted {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg-8);
+  line-height: 150.5%;
+  font-family: var(--font-raleway);
+}
+.frameParent {
+  width: 10.938rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+.frameChild {
+  width: 0.063rem;
+  flex: 1;
+  position: relative;
+  max-height: 100%;
+}
+.statisticsInner {
+  height: 4.75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) 0 0;
+  box-sizing: border-box;
+}
+.span {
+  font-size: var(--font-size-19xl);
+}
+.rateValue {
+  align-self: stretch;
+  position: relative;
+  line-height: 3.438rem;
+  background: linear-gradient(97.28deg, #ff8e37, #f05306),
+    linear-gradient(90deg, #2c18e5, #5442f4 46.88%, #5442f5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.successRate {
+  flex: 1;
+  position: relative;
+  line-height: 150.5%;
+  display: inline-block;
+  min-width: 7.875rem;
+}
+.rateLabel,
+.rateValueParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rateLabel {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-9xs) 0 var(--padding-11xs);
+  font-size: var(--font-size-lg-8);
+  font-family: var(--font-raleway);
+}
+.rateValueParent {
+  width: 8.25rem;
+  flex-direction: column;
+  gap: var(--gap-9xs);
+}
+.frameItem {
+  width: 0.063rem;
+  flex: 1;
+  position: relative;
+  max-height: 100%;
+}
+.statisticsChild {
+  height: 4.75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) 0 0;
+  box-sizing: border-box;
+}
+.span1 {
+  font-size: var(--font-size-19xl);
+}
+.b {
+  flex: 1;
+  position: relative;
+  line-height: 3.438rem;
+  background: linear-gradient(97.28deg, #ff8e37, #f05306),
+    linear-gradient(90deg, #2c18e5, #5442f4 46.88%, #5442f5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-7xs) 0 var(--padding-4xs);
+}
+.businessGrowth {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg-8);
+  line-height: 150.5%;
+  font-family: var(--font-raleway);
+}
+.frameGroup {
+  width: 9.188rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.statistics {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-28xl);
+  color: var(--color-dimgray);
+  font-family: var(--font-inter);
+}
+.accomplishments,
+.accomplishmentsContent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.accomplishmentsContent {
+  width: 66.938rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-46xl);
+  padding-top: 5%;
+}
+.accomplishments {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-2xl) var(--padding-153xl) var(--padding-xl);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--color-darkslategray-200);
+  font-family: var(--font-helvetica);
+}
+@media screen and (max-width: 1100px) {
+  .accomplishmentsTitle {
+    padding-left: var(--padding-17xl);
+    padding-right: var(--padding-17xl);
+    box-sizing: border-box;
+  }
+  .statistics {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .accomplishmentsContent {
+    gap: var(--gap-13xl);
+  }
+}
+@media screen and (max-width: 800px) {
+  .statisticsChild {
+    height: 4.75rem;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-2xs) 0 0;
+    box-sizing: border-box;
+  }
+  .statisticsInner {
+    height: 4.75rem;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-2xs) 0 0;
+    box-sizing: border-box;
+  }
+  .statsIconsWrapper {
+    height: 4.75rem;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-2xs) 0 0;
+    box-sizing: border-box;
+  }
+  .statistics {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    font-size: var(--font-size-28xl);
+    color: var(--color-dimgray);
+    font-family: var(--font-inter);
+  }
+  .aiditsSignificantAccomplish,
+  .b,
+  .empty,
+  .rateValue,
+  .years {
+    font-size: var(--font-size-19xl);
+    line-height: 2.375rem;
+  }
+  .b,
+  .empty,
+  .rateValue,
+  .years {
+    line-height: 2.563rem;
+  }
+  
+  .b,
+  .rateValue {
+    font-size: var(--font-size-11xl);
+  }
+  .accomplishmentsContent {
+    gap: var(--gap-base);
+  }
+}
+@media screen and (max-width: 450px) {
+  .aiditsSignificantAccomplish {
+    font-size: 1.3rem;
+    line-height: 1.813rem;
+  }
+  .b,
+  .empty,
+  .rateValue,
+  .years {
+    /* font-size: 1.5rem;
+    line-height: 1.938rem; */
+  }
+  .colEndBorder{
+    border: none;
+  }
+  .b,
+  .rateValue {
+    font-size: var(--font-size-4xl);
+  }
+  .accomplishments {
+    padding-bottom: var(--padding-93xl);
+    box-sizing: border-box;
+  }
+}

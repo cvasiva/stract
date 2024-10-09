@@ -1,0 +1,104 @@
+.latestNewsAnd {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 3.25rem;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.weCurrentlySupport {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-mid-9);
+  line-height: 1.688rem;
+  font-family: var(--font-source-sans-pro);
+  text-align: justify;
+  font-family: "Geologica", Helvetica;
+  color: #555555;
+  font-weight: 300;
+}
+.newsTitleContainer {
+  width: 40.463rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lgi-9);
+  flex-shrink: 0;
+  
+  max-width: 100%;
+}
+.seeMoreNews {
+  width: 7.938rem;
+  position: relative;
+  line-height: 145.5%;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 7.938rem;
+}
+.button,
+.buttonWrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.button {
+  border-radius: 43.33px;
+  border: 0.9px solid var(--color-gainsboro-200);
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-xl) var(--padding-24xl) var(--padding-2xl)
+    var(--padding-26xl);
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.buttonWrapper {
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-9xl-3);
+  text-align: center;
+  font-size: var(--font-size-mid-3);
+  color: var(--color-darkslategray-300);
+  font-family: var(--font-mulish);
+}
+.newsHeader,
+.newsTitleContainerParent {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.newsTitleContainerParent {
+  flex: 1;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.newsHeader {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xs) 0 var(--padding-11xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-darkslategray-200);
+  font-family: var(--font-helvetica);
+}
+@media screen and (max-width: 1100px) {
+  .newsTitleContainerParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .latestNewsAnd {
+    font-size: var(--font-size-19xl);
+    line-height: 2.625rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .latestNewsAnd {
+    font-size: var(--font-size-10xl);
+    line-height: 1.938rem;
+  }
+}

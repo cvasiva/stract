@@ -1,0 +1,308 @@
+.frameChild,
+.image104198 {
+  position: absolute;
+  margin: 0 !important;
+}
+.frameChild {
+  height: 4.506rem;
+  width: 3.206rem;
+  bottom: -1.756rem;
+  left: 12.375rem;
+}
+.image104198 {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-10xl);
+  background-color: var(--color-black);
+}
+.nextGenerationCybersecurity {
+  width: 38.875rem;
+  position: relative;
+  line-height: 1.969rem;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  z-index: 1;
+}
+.statsCardValueIcon {
+  width: 2.094rem;
+  height: 0.313rem;
+  position: relative;
+}
+.t {
+  position: relative;
+  line-height: 3rem;
+}
+.estimatedGlobalAnnual {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 1.563rem;
+  font-family: var(--font-inter);
+}
+.tParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xl);
+}
+.frameWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-11xs);
+}
+.frameWrapper,
+.statsCardValueContainer,
+.statsCardValueIconParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.statsCardValueIconParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-mid-5);
+}
+.statsCardValueContainer {
+  width: 17.219rem;
+  flex-direction: row;
+  padding: var(--padding-xl);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.div,
+.frameItem {
+  position: relative;
+}
+.frameItem {
+  width: 2.094rem;
+  height: 0.313rem;
+}
+.div {
+  width: 9.438rem;
+  line-height: 3rem;
+  display: flex;
+  align-items: center;
+}
+.leadersForeseeA {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 1.563rem;
+  font-family: var(--font-inter);
+}
+.parent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-6xl);
+}
+.parent,
+.statsCardValuesInner,
+.vectorParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.vectorParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-lg);
+}
+.statsCardValuesInner {
+  flex: 0.8837;
+  flex-direction: row;
+  padding: var(--padding-xl);
+  box-sizing: border-box;
+  min-width: 14rem;
+  max-width: 100%;
+  z-index: 1;
+}
+.frameInner {
+  width: 2.094rem;
+  height: 0.313rem;
+  position: relative;
+}
+.div1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 3rem;
+}
+.vectorGroup {
+  width: 9.438rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lgi);
+}
+.increasedDisruptionLevels {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 1.563rem;
+  font-family: var(--font-inter);
+}
+.frameGroup,
+.statsCardValues,
+.statsCardValuesChild {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameGroup {
+  align-self: stretch;
+  flex-direction: column;
+  padding: var(--padding-xl);
+  gap: var(--gap-5xl);
+  z-index: 1;
+}
+.statsCardValues,
+.statsCardValuesChild {
+  flex: 1;
+  max-width: 100%;
+}
+.statsCardValuesChild {
+  flex-direction: column;
+  padding: var(--padding-smi-5) 0 0;
+  box-sizing: border-box;
+  min-width: 14rem;
+}
+.statsCardValues {
+  flex-direction: row;
+  gap: var(--gap-53xl);
+}
+.statsCardContent {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-10xs);
+  font-size: var(--font-size-29xl);
+}
+.frameParent,
+.image104198Parent,
+.statsCardContent,
+.statsCards {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.image104198Parent {
+  width: 78.875rem;
+  flex-direction: column;
+  padding: var(--padding-69xl) var(--padding-52xl) var(--padding-17xl)
+    var(--padding-61xl);
+  position: relative;
+  gap: var(--gap-48xl);
+}
+.frameParent,
+.statsCards {
+  flex-direction: row;
+}
+.statsCards {
+  flex: 1;
+  padding: 80px 0 var(--padding-100xl);
+}
+.frameParent {
+  width: 87.938rem;
+  padding: 0 0 0 var(--padding-xl);
+  position: relative;
+  text-align: left;
+  font-size: var(--font-size-12xl-5);
+  color: var(--color-white);
+  font-family: var(--font-helvetica);
+}
+@media screen and (max-width: 1400px) {
+  .image104198Parent {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-16xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .statsCardValuesChild,
+  .statsCardValuesInner {
+    flex: 1;
+  }
+  .statsCardValues {
+    flex-wrap: wrap;
+    gap: var(--gap-17xl);
+  }
+}
+@media screen and (max-width: 825px) {
+  .nextGenerationCybersecurity {
+    font-size: var(--font-size-6xl);
+    line-height: 1.563rem;
+  }
+  .div,
+  .div1,
+  .t {
+    font-size: var(--font-size-19xl);
+    line-height: 2.375rem;
+  }
+  .statsCardValues {
+    gap: var(--gap-lg);
+  }
+  .image104198Parent {
+    gap: var(--gap-14xl);
+  }
+  .statsCards {
+    padding-bottom: var(--padding-58xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .statsCards {
+    flex: 1;
+    padding: 0px 0 var(--padding-100xl);
+  }
+  .frameParent {
+    width: 100%;
+    padding: 0 0.5rem;
+    position: relative;
+    text-align: left;
+    font-size: var(--font-size-12xl-5);
+    color: var(--color-white);
+    font-family: var(--font-helvetica);
+  }
+  .nextGenerationCybersecurity {
+    font-size: var(--font-size-lgi);
+    line-height: 1.188rem;
+  }
+  .t {
+    font-size: var(--font-size-10xl);
+    line-height: 1.813rem;
+  }
+  .estimatedGlobalAnnual {
+    font-size: var(--font-size-base);
+    line-height: 1.25rem;
+  }
+  .div {
+    font-size: var(--font-size-10xl);
+    line-height: 1.813rem;
+  }
+  .leadersForeseeA {
+    font-size: var(--font-size-base);
+    line-height: 1.25rem;
+  }
+  .div1 {
+    font-size: var(--font-size-10xl);
+    line-height: 1.813rem;
+  }
+  .increasedDisruptionLevels {
+    font-size: var(--font-size-base);
+    line-height: 1.25rem;
+  }
+  .image104198Parent {
+    gap: var(--gap-mid);
+    padding-top: var(--padding-38xl);
+    padding-bottom: var(--padding-4xl);
+    box-sizing: border-box;
+  }
+}

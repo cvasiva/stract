@@ -1,0 +1,107 @@
+.cybersecurityChild {
+    align-self: stretch;
+    height: 6.25rem;
+    position: relative;
+    display: none;
+    z-index: 0;
+  }
+  .webApplicationContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-20xl);
+    max-width: 100%;
+  }
+  .webApplicationContainerWrapper {
+    width: 93.75rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 1.875rem 9.4rem;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .footer {
+    margin-left: -0.5rem;
+    align-self: stretch;
+    background-color: #292929;
+    align-items: flex-start;
+    padding: var(--padding-10xs-6) 4.375rem 0;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    max-width: 101%;
+    z-index: 2;
+  }
+  .cybersecurity,
+  .footer,
+  .footerTop {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .footerTop {
+    align-self: stretch;
+    height: 76.125rem;
+    align-items: flex-start;
+    padding: 0 0 47.75rem;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .cybersecurity {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-white);
+    overflow: hidden;
+    align-items: flex-end;
+    line-height: normal;
+    letter-spacing: normal;
+    
+  }
+  @media screen and (max-width: 1400px) {
+    .webApplicationContainerWrapper {
+      padding-bottom: var(--padding-79xl);
+      box-sizing: border-box;
+    }
+    .footerTop {
+      height: auto;
+      padding-bottom: 31.063rem;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .footerTop {
+      padding-bottom: 20.188rem;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 825px) {
+    .webApplicationContainer {
+      gap: var(--gap-lgi);
+    }
+    .webApplicationContainerWrapper {
+      padding-bottom: var(--padding-45xl);
+      box-sizing: border-box;
+    }
+    .footer,
+    .footerTop {
+      box-sizing: border-box;
+    }
+    .footer {
+      padding-left: var(--padding-16xl);
+      padding-right: var(--padding-16xl);
+    }
+    .footerTop {
+      padding-bottom: 13.125rem;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .webApplicationContainerWrapper {
+      padding-bottom: 2.625rem;
+      box-sizing: border-box;
+      width: 100%;
+    }
+  }
+  

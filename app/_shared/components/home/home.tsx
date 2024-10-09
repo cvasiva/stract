@@ -64,17 +64,17 @@ const Home: React.FC = () => {
               <div className={styles.Createfont}>Create a resume you are proud of</div>
               <div className={styles.hassleflx}>
                 <div style={{ paddingTop: '2%' }}><img src='/Vector.png' alt='Hourg' style={{ width: '65%' }} /></div>
-                <div>Save time with hassle-free<br />
+                <div style={{ paddingTop: '1%' }}>Save time with hassle-free<br />
                   templates</div>
               </div>
               <div className={styles.hassleflx}>
                 <div><img src='/ShootingStar.png' alt='Hourg' style={{ width: '75%' }} /></div>
-                <div>Beat the competition using
+                <div style={{ paddingTop: '1%' }}>Beat the competition using
                   actionable, contextual advice</div>
               </div>
               <div className={styles.hassleflx}>
                 <div><img src='/Target.png' alt='Hourg' style={{ width: '75%' }} /></div>
-                <div>Highlight key achievements
+                <div style={{ paddingTop: '1%' }}>Highlight key achievements
                   with memorable visuals</div>
               </div>
               <div className={styles.inspired}>

@@ -1,4 +1,4 @@
-# tap2get_web
+# stract
 
 
 $ npx create-net-app@latest --typescript

@@ -82,7 +82,7 @@ const Home: React.FC = () => {
               </div>
             </div>
           </div>
-          <div className={styles.resumeflx}>
+          <div className={styles.resumeflx1}>
             <div className={styles.cardpart2}>
               <div style={{ width: '80%' }}>
                 <div className={styles.Signfont}>Sign in to your account</div>

@@ -63,8 +63,8 @@ const Home: React.FC = () => {
             <div className={styles.ofwidth}>
               <div className={styles.Createfont}>Create a resume you are proud of</div>
               <div className={styles.hassleflx}>
-                <div><img src='/Hourg.png' alt='Hourg' style={{ width: '75%' }} /></div>
-                <div>Save time with hassle-free
+                <div style={{ paddingTop: '2%' }}><img src='/Vector.png' alt='Hourg' style={{ width: '65%' }} /></div>
+                <div>Save time with hassle-free<br />
                   templates</div>
               </div>
               <div className={styles.hassleflx}>
@@ -89,13 +89,13 @@ const Home: React.FC = () => {
                 <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '1rem', width: "100%", }}>
                   <div className={styles.cardlink}>
                     <div>
-                      <img src='/linkdin.png' alt='Hourg' style={{ width: '75%' }} />
+                      <img src='/linkdin.png' alt='Hourg' className={styles.linkdinwdt} />
                     </div>
                     <div>LinkedIn</div>
                   </div>
                   <div className={styles.cardlink}>
                     <div>
-                      <img src='/google.png' alt='Hourg' style={{ width: '75%' }} />
+                      <img src='/google.png' alt='Hourg' className={styles.googlewdt} />
                     </div>
                     <div>Google</div>
                   </div>

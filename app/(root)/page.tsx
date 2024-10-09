@@ -6,7 +6,7 @@ export default function Home() {
     // redirect('/portfolio/home')
     // redirect('/pdf-chatbot/home')
     // redirect('/home')
-    redirect('/home')
+    redirect('/login')
 
     return (
        <></>

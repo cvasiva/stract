@@ -2,8 +2,8 @@ import '../globals.css';
 
 
 export const metadata = {
-  title: 'Tap2Get',
-  description: 'Food Delivery App',
+  title: 'Stract',
+  description: '',
 }
 
 export default function RootLayout({

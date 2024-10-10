@@ -1,6 +1,6 @@
 
 import '../globals.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 export const metadata = {
   title: 'Stract',
   description: '',
@@ -11,7 +11,7 @@ export default function RestaurantLayout({ children, }: { children: React.ReactN
   return (
     <html lang="en" suppressHydrationWarning={true}>
       <body className="bg-[#FFFFFF]">
-        <div className="w-full bg-white">
+        <div className="bg-white" style={{ width: "100%", overflowX: 'hidden' }}>
           {children}
         </div>
       </body>

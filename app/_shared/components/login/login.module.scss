@@ -4,6 +4,10 @@
   padding: 1rem 1.5rem;
 }
 
+.home{
+  width: 100%;
+}
+
 .dflex {
   display: flex;
   gap: 3rem;
@@ -336,6 +340,7 @@
   .card {
     background: #f9fdfa;
     height: 100%;
+    width: 100%;
     padding: 1.5rem 0rem;
   }
   .brandstract {
